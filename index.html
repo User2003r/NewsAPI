@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="left_side_nav">
+                <i class="fa fa-bars" id="hamburger"></i>
+                <select id="language">
+                    <option class="option" value="English" selected>English</option>
+                    <option class="option" value="hindi">हिंदी</option>
+                    <option class="option" value="tamil">தமிழ்</option>
+                    <option class="option" value="marathi">मराठी</option>
+                    <option class="option" value="gujrati">ગુજરાતી</option>
+                    <option class="option" value="punjabi">ਪੰਜਾਬੀ</option>
+                </select>
+                <i class="fa fa-search" id="search"></i>
+                <p id="date"></p>
+            </div>
+            <div class="center_nav">
+                <div class="lang">
+                    <span class="eng" id="eng">English |</span>
+                    <span class="hindi" id="hindi">हिंदी |</span>
+                    <span class="tamil" id="tamil">தமிழ் |</span>
+                    <span class="marathi" id="marathi">मराठी |</span>
+                    <span class="gujrati" id="gujrati">ગુજરાતી |</span>
+                    <span class="punjabi" id="punjabi">ਪੰਜਾਬੀ |</span>
+                </div>
+
+                <img
+                    src="https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg"
+                    alt>
+            </div>
+            <div class="right_side_nav">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+
+        </nav>
+        <div id="main">
+            <div id="button">
+                <input type="text" id="search-box">
+                <button id="searchnews">Search</button>
+            </div>
+            <div id="news-div">
+                <div class="news-box">
+
+                </div>
+            </div>
+        </div>
+        <script src="./Javascript/main.js"></script>
+    </body>
+</html>
